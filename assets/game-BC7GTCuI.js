@@ -1,0 +1,1 @@
+function i(l){const a=[...l];for(let e=a.length-1;e>0;e--){const t=Math.floor(Math.random()*(e+1));[a[e],a[t]]=[a[t],a[e]]}return a}const o=[{id:"easy",label:"Facile"},{id:"medium",label:"Medio"},{id:"hard",label:"Difficile"}],s=(l=30)=>{try{navigator.vibrate?.(l)}catch{}};export{s as b,o as l,i as s};
